@@ -1,0 +1,49 @@
+{
+    "name": "lichunlong0630/think-auth",
+    "description": "Auth for Thinkphp 6.0.x",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "auth"
+    ],
+    "homepage": "http://www.lichunlong.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "chunlong.li",
+            "email": "lichunlong0630@163.com"
+        }      
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0.0",
+        "topthink/think-orm": "^2.0",
+        "lichunlong0630/phptools": "^1.0",
+        "topthink/think-view": "^1.0",
+        "topthink/think-captcha": "^3.0",
+        "topthink/think-log": "^2.0",
+        "phpoffice/phpspreadsheet": "^1.10"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2",
+        "topthink/think-trace":"^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php think service:discover",
+            "@php think vendor:publish"
+        ]
+    }
+}
