@@ -5,5 +5,5 @@
 
 ## 安装
 ~~~php
-composer create-project lichunlong0630/thinkphp-auth thinkphp-auth
+composer create-project lichunlong0630/think-auth
 ~~~
