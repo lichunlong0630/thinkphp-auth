@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+html {
+	background-color: #f2f2f2;
+	color: #666;
+}
+
+*[lay-href], *[lay-tips], *[layadmin-event] {
+	cursor: pointer;
+}
+
+.logo-image {
+	float: left;
+	margin-left: 5px;
+	margin-top: 16px;
+	height: 30px;
+	width: auto;
+}
+
+.float-l {
+	float: left !important;
+}
+
+.float-r {
+	float: right !important;
+}
+
+.user-show-image-small {
+	height: 60px;
+	width: auto;
+}
+
+p.budget-big-font {
+	font-size: 36px;
+	color: rgb(102, 102, 102);
+	line-height: 36px;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	white-space: nowrap;
+	padding: 5px 0px 10px;
+	overflow: hidden;
+}
+
+.h30 {
+	height: 30px !important;
+	line-height: 30px !important;
+}
+
+.h32 {
+	height: 32px !important;
+	line-height: 32px !important;
+}
+
+.h38 {
+	height: 38px !important;
+	line-height: 38px !important;
+}
+
+.disp-block {
+	display: block;
+}
+
+.w100 {
+	width: 100px !important;
+}
+
+.w300 {
+	width: 300px !important;
+}
+
+.box {
+	padding: 10px 20px 0px 20px;
+}
+
+.pb {
+	padding-bottom: 10px !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.layadmin-shortcut li {
+	text-align: center;
+}
+
+.layadmin-shortcut li .layui-icon {
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 30px;
+	background-color: #F8F8F8;
+	color: #333;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+}
+
+.layadmin-shortcut li cite {
+	position: relative;
+	top: 2px;
+	display: block;
+	color: #666;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 14px;
+}
+
+.layadmin-shortcut li:hover .layui-icon {
+	background-color: #f2f2f2;
+}
+
+.layadmin-carousel {
+	height: 185px !important;
+	background-color: #fff;
+}
+
+.layadmin-carousel .layui-carousel-ind li {
+	background-color: #e2e2e2;
+}
+
+.layadmin-carousel .layui-carousel-ind li:hover {
+	background-color: #c2c2c2;
+}
+
+.layadmin-carousel .layui-carousel-ind li.layui-this {
+	background-color: #999;
+}
+
+.layadmin-carousel .layui-carousel, .layadmin-carousel>*[carousel-item]>*
+	{
+	background-color: #fff;
+}
+
+.layadmin-carousel .layui-col-space10 {
+	margin: 0;
+}
+
+.layadmin-carousel .layui-carousel-ind {
+	position: absolute;
+	top: -41px;
+	text-align: right;
+}
+
+.layadmin-carousel .layui-carousel-ind ul {
+	background: none;
+}
+
+.bg-color-white {
+	background-color: #ffffff !important;
+}
+
+.m-l-10 {
+	margin-left: 10px !important;
+}
+
+.m-r-10 {
+	margin-right: 10px !important;
+}
+
+.m-t-10 {
+	margin-top: 10px !important;
+}
+
+.m-b-10 {
+	margin-bottom: 10px !important;
+}
+
+.m-10 {
+	margin: 10px !important;
+}
+
+.p-5 {
+	padding: 5px !important;
+}
+
+.h150 {
+	height: 150px !important;
+}
+
+.budget-card-header-auto {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: auto;
+}
+
+.m-b-0 {
+	margin-bottom: 0px !important;
+}
+
+.m-t-5 {
+	margin-top: 5px !important;
+}
+
+.box .layui-table, .layui-table-view {
+	margin: 0 !important;
+}
+
+.layui-layout-admin .layui-footer {
+	background-color: #ffffff !important;
+}
+
+.ew-tree-table {
+	margin: 0 !important;
+}

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+html {
+	height: 100%;
+}
+
+body {
+	position: fixed;
+	background: url('../img/bg.jpg') top left;
+	background-size: 100% 100%;
+	z-index: -1;
+	zoom: 1;
+	filter: alpha(opacity = 95);
+}
+
+.login-body {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 100;
+	zoom: 1;
+}
+
+.login-title {
+	height: 70px;
+	line-height: 70px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	z-index: 101;
+	background: #ffffff;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	filter: alpha(opacity = 90);
+}
+
+.login-title-bar {
+	margin: auto;
+	width: 1266px;
+	height: 40px;
+	padding: 20px 0;
+}
+
+.login-box {
+	position: fixed;
+	top: 20%;
+	right: 10%;
+	width : 400px;
+	height: 210px;
+	z-index: 101;
+	zoom: 1;
+	background: #ffffff;
+	opacity: 0.95;
+	-moz-opacity: 0.95;
+	-khtml-opacity: 0.95;
+	filter: alpha(opacity = 95);
+}
+
+.login-title-logo {
+	height: 34px;
+	top: 0;
+	float: left;
+	display: inline-block;
+}
+
+.login-title-logoin {
+	padding: 0 0px;
+	margin: 0px 0 5px 10px;
+	font-size: 32px;
+	height: 32px;
+	line-height: 32px;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+}
+
+.login-bot {
+	position: fixed;
+	height: 100px;
+	background: #f7fafc;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 101;
+	text-align: center;
+}
+
+.login-bot-tel {
+	font-size: 22px;
+	width: 100%;
+	color: #00b4ff;
+	display: inline-block;
+	margin: 18px 0 8px;
+}
+
+.login-bot-fnum {
+	font-size: 12px;
+	width: 100%;
+	color: #adb1b3;
+	display: inline-block;
+}
